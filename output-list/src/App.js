@@ -1,8 +1,11 @@
+import './App.css';
 import Navbar from './Navbar';
-import Home from './Home';
+import Home from './Home'
 
 function App() {
     return ( <
+        div className = "App" >
+        <
         div className = "App" >
         <
         Navbar / >
@@ -10,9 +13,12 @@ function App() {
         div className = "content" >
         <
         Home / >
+
         <
-        h1 > app component < /h1> <
         /div> <
+        /div>
+
+        <
         /div>
     );
 }
